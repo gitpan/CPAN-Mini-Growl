@@ -1,0 +1,29 @@
+---
+abstract: 'Growls updates from CPAN::Mini'
+author:
+  - 'Tatsuhiko Miyagawa <miyagawa@bulknews.net>'
+build_requires:
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.79'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CPAN-Mini-Growl
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  CPAN::DistnameInfo: 0
+  CPAN::Mini: 0
+  Filter::Util::Call: 0
+  LWP::Simple: 0
+  Mac::Growl: 0
+  Parse::CPAN::Authors: 0
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/miyagawa/cpan-mini-growl.git
+version: 0.01
